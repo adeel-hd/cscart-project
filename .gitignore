@@ -1,0 +1,9 @@
+# Ignore cache, logs, and compiled templates
+var/cache/*
+var/logs/*
+design/backend/mail/templates/compiled/*
+design/themes/*/templates/compiled/*
+# Ignore local config
+config.local.php
+# Ignore environment files
+.env
